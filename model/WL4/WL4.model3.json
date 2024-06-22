@@ -1,0 +1,132 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "WL4.moc3",
+    "Textures": [
+      "WL4.8192/texture_00.png"
+    ],
+    "Physics": "WL4.physics3.json",
+    "PhysicsV2": {
+      "File": "WL4.physics3.json"
+    },
+    "Motions": {
+      "Shake": [
+        {
+          "File": "WL-生气.motion3.json"
+        }
+      ],
+      "Tap归零": [
+        {
+          "File": "WL-归零.motion3.json"
+        }
+      ],
+      "Tap左耳朵": [
+        {
+          "File": "WL-左耳朵.motion3.json"
+        }
+      ],
+      "Tap右耳朵": [
+        {
+          "File": "WL-右耳朵.motion3.json"
+        }
+      ],
+      "Tap额头": [
+        {
+          "File": "WL-微笑.motion3.json"
+        }
+      ],
+      "Tap头顶": [
+        {
+          "File": "WL-摸摸头.motion3.json"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Items": [
+        {
+          "Id": "ParamEyeLOpen",
+          "Min": 0.0,
+          "Max": 1.0,
+          "BlendMode": 2,
+          "Input": 0
+        },
+        {
+          "Id": "ParamEyeROpen",
+          "Min": 0.0,
+          "Max": 1.0,
+          "BlendMode": 2,
+          "Input": 0
+        },
+        {
+          "Id": "Param",
+          "Min": 0.0,
+          "Max": 1.0,
+          "BlendMode": 2,
+          "Input": 0
+        }
+      ],
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "归零",
+      "Id": "ArtMesh33"
+    },
+    {
+      "Name": "左耳朵",
+      "Id": "ArtMesh30"
+    },
+    {
+      "Name": "右耳朵",
+      "Id": "ArtMesh11"
+    },
+    {
+      "Name": "额头",
+      "Id": "ArtMesh3"
+    },
+    {
+      "Name": "头顶",
+      "Id": "ArtMesh12"
+    }
+  ],
+  "Options": {}
+}
